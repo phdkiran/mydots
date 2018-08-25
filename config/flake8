@@ -1,0 +1,6 @@
+# store in ~/.config/flake8
+[flake8]
+ignore = F999,E501,E128,E124,E126,F841,E123,F401,F403,F812,H101,H202,H233,H301,H306,H401,H403,H404,H405,H501
+max-line-length = 120
+exclude = env, .git
+
