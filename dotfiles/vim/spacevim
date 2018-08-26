@@ -43,6 +43,7 @@ endfunction
 
 " Override the default settings as well as adding extras
 function! UserConfig()
+
     set <F20>=  
     set <F21>=
 
@@ -58,7 +59,6 @@ function! UserConfig()
    let g:multi_cursor_use_default_mapping=0
    set completeopt=menuone,noselect,preview
 
-   source $HOME/mydots/vim/vimrc_extended
 
   " Use gui colors in terminal if available
   function! s:enable_termgui()
@@ -75,4 +75,5 @@ function! UserConfig()
 
   " If your terminal(-emulator) supports true colors, uncomment the line below
   " call s:enable_termgui()
+   " source $HOME/dotfiles/vim/vimrc.vim
 endfunction

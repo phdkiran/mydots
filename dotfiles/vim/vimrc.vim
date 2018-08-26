@@ -37,4 +37,6 @@ endif
 
 set runtimepath+=$HOME/.space-vim/core
 
+source $HOME/dotfiles/vim/vimrc_extended
+
 call spacevim#bootstrap()
