@@ -8,6 +8,9 @@ if [ -z "$TMUX" ] && [[ $TERM == xterm* ]]; then
   tmux has-session -t global-session > /dev/null
   if [ $? -ne 0 ]; then
     tmux new -d -s global-session -n work 
+    tmux new-window -d -n fast -c /work/work
+    tmux new-window -d -n vim -c /work/work
+    tmux new-window -d -n ipython -c /work/work
     # tmux new-session -d -t global-session -s work \; set-option destroy-unattached \; new-window \; attach-session -t work 
     # tmux new -s work 
   fi

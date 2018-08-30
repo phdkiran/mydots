@@ -94,6 +94,9 @@ fi
 
 cp -r dotfiles $HOME/
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 printf "source '$HOME/dotfiles/zsh/zshrc_manager.sh'" > ~/.zshrc
 printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vimrc
 printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
