@@ -215,7 +215,7 @@ python-nvd3==0.14.2
 python-slugify==1.2.5
 pytz==2018.4
 PyWavelets==0.5.2
-PyYAML==3.12
+PyYAML==5.4
 pyzmq==17.0.0
 QtAwesome==0.4.4
 qtconsole==4.3.1
